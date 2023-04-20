@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-color: #d4ba9f;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;  
+    color:#8a4121;
+    text-align: center;
+    font-size: 60px;
+    background-color: #c9a075;
+}
+
+select{
+    margin-left: 10px;
+}
+
+article p{
+    margin-left: 300px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #8a4121;
+} 
+
+aside p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #8a4121;
+}
+
+div article img{
+    width: 95%;
+    height: 280px;
+}
+
+aside{
+    text-align: center;
+    width: 40%;
+}
+
+aside li{
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}

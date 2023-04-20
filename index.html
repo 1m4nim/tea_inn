@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>紅茶の宿</title>
+        <!--CSS-->
+        <link href="css/style.css" rel="stylesheet"> 
+    </head>
+    
+    <body>
+        <h1>紅茶の宿</h1>
+    </body>
+
+    <div class="info wrapper">
+        <article>
+            <p>宿のご案内</p>
+            <img src="img/bath.jpg" alt="お風呂">
+            <select name="figure">
+                <option value="1泊" selected>1泊</option>
+                <option value="2泊">2泊</option>
+                <option value="3泊以上">3泊以上</option>
+            </select>
+            名前：<input type="text" placeholder="氏名">
+            /性別：<input type="radio" name="gender" value="男">男 <input type="radio" name="gender" value="女" checked>女 <input type="radio" name="gender" value="その他">その他
+            /電話番号：<input type="tel" name="number">
+            <input type="submit" value="送信する">
+        </article>
+    
+        <aside>
+            <p>カテゴリ</p>
+            <h3 class="sub-title">春夏秋冬</h3>
+            <ul class="sub-menu"></ul>
+                <li><a href="./spring.html">春</a></li>
+                <li><a href="./summer.html">夏</a></li>
+                <li><a href="./fall.html">秋</a></li>
+                <li><a href="./winter.html">冬</a></li>
+            </ul>
+        </aside>
+    </div>
+
+   
+</html>
